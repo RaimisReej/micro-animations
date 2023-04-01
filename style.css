@@ -1,0 +1,29 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(260deg, #6a9eec, #65c0d3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 5rem;
+    color: black;
+}
+.home,.notifications,.messages {
+    display: flex;
+    padding: 2rem;
+    align-items: center
+}
+.home-title,.notifications-title,.messages-title{
+    padding-left: 2rem;
+}
+.messages-svg,.notification-svg {
+    overflow: visible;
+}
